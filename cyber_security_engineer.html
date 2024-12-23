@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--====== Title ======-->
+    <title>Othello Financial Services SES</title>
+    <!-- ========== Favicon Ico ========== -->
+    <link rel="icon" href="assets/images/othello-logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!--====== swiper css ======-->
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <!--====== IcoFont css ======-->
+    <link rel="stylesheet" href="assets/css/icofont.min.css" />
+    <!--====== Odometer css ======-->
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+    <!--====== Glightbox css ======-->
+    <link rel="stylesheet" href="assets/css/glightbox.css" />
+    <!--====== Margubs & Paddings css ======-->
+    <link rel="stylesheet" href="assets/css/margins-paddings.css" />
+    <!--====== Aos & Paddings css ======-->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!--====== Bookblock css ======-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bookblock.css" />
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--====== Custom variants ======-->
+    <link
+      rel="stylesheet"
+      href="assets/css/colors/oldRose.css"
+      id="color-switch"
+    />
+    <!-- Default color version -->
+    <link
+      rel="stylesheet"
+      href="assets/css/fonts/philosopher-poppins.css"
+      id="font-switch"
+    />
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: 'en', includedLanguages: 'en,ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+          'google_translate_element'
+        );
+      }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+      #google_translate_element select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  color: #333;
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="section-wrapper">
+      <!-- ========== Preloader start ========== -->
+      <div id="preLoader"></div>
+      <!-- ========== Preloader end ========== -->
+      <!-- ========== Header start ========== -->
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <!-- <h1 class="m-0">WONTED</h1> -->
+                <img src="assets/images/logo.svg" alt="Othello" />
+              </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="onepage-nav" class="navbar-nav menu ms-lg-auto">
+                       <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown submenu">
+                    <a
+                      class="nav-link active dropdown-toggle"
+                      href="#hero"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >Services
+                    </a>
+                    <span
+                      class="sub-menu-toggle dropdown-toggle"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="icofont-rounded-down"></i>
+                    </span>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="it_support.html" class="nav-link">IT Support</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="ai_ml.html" class="nav-link">AI</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="software.html" class="nav-link">Software Engineer</a>
+                      </li>
+                      </li>
+                    </ul>
+                  </li>
+
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <div id="google_translate_element" class="ms-3"></div>
+              </div>
+              <button
+                class="navbar-toggler collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span></span><span></span><span></span><span></span><span></span
+                ><span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+     <!-- ========== Header end ========== -->
+
+      <section id="hero" >
+       
+        <!-- Carousel Start -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+<div class="carousel-inner">
+<!-- Slide 1: IT Support -->
+<div class="carousel-item active" style="background-image: url('assets/images/Software Engineering.png'); background-size: cover; background-position: center; height: 100vh;">
+<div class="row align-items-center" style="height: 100%;"></div>
+</div>
+
+<!-- Slide 2: IT Support -->
+<div class="carousel-item" style="background-image: url('assets/images/IT Support.png'); background-size: cover; background-position: center; height: 100vh;">
+<div class="row align-items-center" style="height: 100%;"></div>
+</div>
+
+<!-- Slide 3: AI -->
+<div class="carousel-item" style="background-image: url('assets/images/AI.png'); background-size: cover; background-position: center; height: 100vh;">
+<div class="row align-items-center" style="height: 100%;"></div>
+</div>
+<!-- More slides can go here -->
+</div>
+
+<!-- Carousel Indicators -->
+<div class="carousel-indicators mt-4">
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+</div>
+<!-- Carousel End -->
+
+       
+      <!-- Indicators at the Bottom -->
+      <div class="carousel-indicators mt-4">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+    <!-- Carousel End -->
+  </div>
+</section>
+
+<!-- Add Custom Styles for the Layout -->
+<style>
+  /* Set the carousel width */
+  #heroCarousel {
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+
+  /* Adjust the height of the carousel */
+  .carousel-inner {
+    height: 400px; 
+  }
+
+  /* Resize the images to fit the smaller container */
+  .carousel-item img {
+    max-height: 80%; 
+    object-fit: contain; 
+    width: auto; 
+  }
+
+  /* Optional: Adjust the hero content */
+  .hero__content {
+    padding: 10px; 
+  }
+
+  /* For better responsiveness, ensure text and image layout stacks correctly on smaller screens */
+  @media (max-width: 767px) {
+    .carousel-item img {
+      max-width: 100%;
+      height: auto;
+    }
+    .carousel-item .col-lg-6 {
+      margin-bottom: 20px;
+    }
+  }
+</style>      
+      <!-- ========== Header end ========== -->
+          <!-- ========== Blog section start ========== -->
+          <section id="about" class="section-padding authorv2">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+                  <div class="section-title-center text-center">
+                    <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">More Details About</span>
+                    <h2 class="display-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                      Cybersecurity Engineer
+                    </h2>
+                    <div class="section-divider divider-traingle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row gx-5">
+                <!-- Image Section -->
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                  <div class="authorv2__image">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1531791267065-f31455bdf458?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHwxfHx8fHx8fHwxNjExOTI5OTM5&ixlib=rb-1.2.1&q=80&w=800" alt="Cybersecurity Engineer at Work" />
+                  </div>
+                </div>
+          
+                <!-- Content Section -->
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                  <p>
+                    A Cybersecurity Engineer is responsible for protecting an organization's network, systems, and data from cyber threats. Their role includes designing and implementing security measures, monitoring systems for suspicious activity, and responding to security incidents. They also perform risk assessments and ensure compliance with security standards to prevent data breaches and cyberattacks.
+                  </p>
+                  <div class="authorv2__content">
+                    <div class="authorv2__list">
+                      <!-- You can add more content here if needed -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section id="cyber-security" class="p-80px-tb bg-light">
+            <div class="container">
+              <div class="row">
+                <!-- Title for Cybersecurity Engineer Role -->
+                <div class="col-12 text-center">
+                  <h2 class="display-6" style="color: #2c3e50;">Abilities of a Cybersecurity Engineer</h2>
+                  <div class="section-divider divider-traingle" style="margin-top: 20px; margin-bottom: 20px;"></div>
+                </div>
+              </div>
+          
+              <!-- Left and Right Sections -->
+              <div class="row">
+                <!-- Full-Time Cybersecurity Engineer Section -->
+                <div class="col-lg-6 d-flex justify-content-center align-items-start flex-column">
+                  <h4 class="text-center" style="color: #2c3e50;">Full-Time Cybersecurity Engineer Capabilities</h4>
+                  <!-- Accordion for Abilities -->
+                  <div class="accordion" id="fullTimeEngineerAccordion">
+                    <!-- Card 1 -->
+                    <div class="card mb-3">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Security Threat Analysis and Prevention
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#fullTimeEngineerAccordion">
+                        <div class="card-body">
+                          Analyzing and identifying potential security threats to the network and systems, and implementing preventive measures to reduce risks.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card mb-3">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Firewall and Intrusion Detection Systems
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#fullTimeEngineerAccordion">
+                        <div class="card-body">
+                          Configuring and maintaining firewalls and intrusion detection systems to monitor and protect the network from external threats.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card mb-3">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Incident Response and Remediation
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#fullTimeEngineerAccordion">
+                        <div class="card-body">
+                          Responding to security breaches, identifying the root cause, and implementing remediation strategies to restore systems to a secure state.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Dispatch Cybersecurity Engineer Section -->
+                <div class="col-lg-6 d-flex justify-content-center align-items-start flex-column">
+                  <h4 class="text-center" style="color: #2c3e50;">Dispatch Cybersecurity Engineer Capabilities</h4>
+                  <!-- Accordion for Dispatch Engineer -->
+                  <div class="accordion" id="dispatchEngineerAccordion">
+                    <!-- Card 1 -->
+                    <div class="card mb-3">
+                      <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Immediate Threat Mitigation and Incident Response
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-bs-parent="#dispatchEngineerAccordion">
+                        <div class="card-body">
+                          Responding promptly to security incidents, mitigating immediate threats, and ensuring continuity of critical systems during a breach.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card mb-3">
+                      <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            On-Site Security Audits and Assessments
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#dispatchEngineerAccordion">
+                        <div class="card-body">
+                          Conducting on-site security audits, risk assessments, and penetration testing to identify vulnerabilities and enhance the security posture.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card mb-3">
+                      <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Cybersecurity Tools Implementation
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#dispatchEngineerAccordion">
+                        <div class="card-body">
+                          Installing and configuring advanced cybersecurity tools such as SIEM (Security Information and Event Management) and endpoint protection systems.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Add Styles -->
+          <style>
+            .btn-link {
+              color: #2c3e50;
+              font-weight: 600;
+              text-decoration: none;
+            }
+          
+            .btn-link:hover {
+              color: #27ae60;
+              text-decoration: underline;
+            }
+          
+            .accordion .card {
+              border: 1px solid #ddd;
+              border-radius: 10px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+              margin-bottom: 10px;
+            }
+          
+            .accordion .card-header {
+              background-color: #f9f9f9;
+              border-radius: 10px;
+              padding: 10px;
+            }
+          
+            .accordion .collapse.show {
+              transition: all 0.3s ease;
+            }
+          </style>
+          
+          <!-- Add Bootstrap JS for Accordion -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+          
+          
+          <!-- ========== Blog section end ========== -->
+   
+          <section id="available-engineers" class="available-engineers py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+                  <div class="section-title-center text-center">
+                    <h2 class="display-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                      Available IT Support Engineers' Profile
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row align-items-center">
+                <!-- IT Support Engineer Card 1: Rajesh Kumar (India) - IT Support Engineer -->
+                <div class="col-lg-6" style="margin-bottom: 30px;">
+                  <div class="card" style="width: 100%; border: 1px solid #ddd; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <div class="row">
+                      <!-- Left Side: Image -->
+                      <div class="col-4">
+                        <img src="assets/images/Demo.jpg" alt="IT Support Engineer" class="img-fluid" style="max-width: 100%; border-radius: 8px;">
+                      </div>
+                      <!-- Right Side: Engineer Details -->
+                      <div class="col-8">
+                        <h4>Rajesh Kumar</h4>
+                        <p><strong>Experience:</strong> 1 years</p>
+                        <p><strong>Place of Residence:</strong> India</p>
+          
+                        <!-- Skills List -->
+                        <p><strong>Skills:</strong></p>
+                        <ul>
+                          <li>Hardware Troubleshooting</li>
+                          <li>Network Support</li>
+                          <li>System Maintenance</li>
+                          <li>OS Installation</li>
+                          <li>End-User Support</li>
+                        </ul>
+                        
+                        <!-- English Level with Bar Chart -->
+                        <div class="mb-3">
+                          <strong>English Level:</strong> 
+                          <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Fluent</div>
+                          </div>
+                        </div>
+          
+                        <!-- Japanese Level with Bar Chart and N3 -->
+                        <div class="mb-3">
+                          <strong>Japanese Level:</strong> N3 
+                          <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- IT Support Engineer Card 2: Priya Sharma (India) - IT Support Engineer -->
+                <div class="col-lg-6" style="margin-bottom: 30px;">
+                  <div class="card" style="width: 100%; border: 1px solid #ddd; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <div class="row">
+                      <!-- Left Side: Image -->
+                      <div class="col-4">
+                        <img src="assets/images/Demo.jpg" alt="IT Support Engineer" class="img-fluid" style="max-width: 100%; border-radius: 8px;">
+                      </div>
+                      <!-- Right Side: Engineer Details -->
+                      <div class="col-8">
+                        <h4>Priya Sharma</h4>
+                        <p><strong>Experience:</strong> 3 years</p>
+                        <p><strong>Place of Residence:</strong> India</p>
+          
+                        <!-- Skills List -->
+                        <p><strong>Skills:</strong></p>
+                        <ul>
+                          <li>System Configuration</li>
+                          <li>Remote Support</li>
+                          <li>Software Updates</li>
+                          <li>IT Troubleshooting</li>
+                          <li>Network Security</li>
+                        </ul>
+          
+                        <!-- English Level with Bar Chart -->
+                        <div class="mb-3">
+                          <strong>English Level:</strong> 
+                          <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Fluent</div>
+                          </div>
+                        </div>
+          
+                        <!-- Japanese Level with Bar Chart and N2 -->
+                        <div class="mb-3">
+                          <strong>Japanese Level:</strong> N2
+                          <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advanced</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <!-- Add styles for the progress bar -->
+          <style>
+            .progress {
+              height: 20px;
+            }
+          
+            .progress-bar {
+              color: white;
+              text-align: center;
+              line-height: 20px;
+            }
+          
+            /* Colors for different proficiency levels */
+            .progress-bar {
+              background-color: #5bc0de;
+            }
+          
+            .progress-bar[aria-valuenow="100"] {
+              background-color: #5cb85c;
+            }
+          
+            .progress-bar[aria-valuenow="80"] {
+              background-color: #f0ad4e;
+            }
+          
+            .progress-bar[aria-valuenow="60"] {
+              background-color: #d9534f;
+            }
+          </style>
+
+
+<section id="available-engineers-count" class="available-engineers-count py-5" style="background-color: #f7f7f7;">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8 col-12">
+        <div class="card p-4" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #fff;">
+          <div class="card-body">
+            <h3 class="display-4" style="font-weight: bold; color: #2a9d8f;">We have <span style="color: #e76f51;">Available Engineers: 12</span></h3>
+            <p class="lead" style="font-size: 1.2rem; color: #6c757d;">Our team of highly skilled engineers is ready to assist with all your IT support needs. Reach out to us today!</p>
+            
+            <!-- Icon Section -->
+            <div class="mt-4">
+              <i class="fa fa-laptop-code" style="font-size: 50px; color: #2a9d8f;"></i>
+            </div>
+
+            <!-- Button to Contact or Learn More -->
+            <div class="mt-4">
+              <a href="contact.html" class="btn btn-primary btn-lg">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add custom styling -->
+<style>
+  #available-engineers-count {
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+    color: #2a9d8f;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+
+  .btn {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: #e76f51;
+    color: white;
+  }
+
+  .fa-laptop-code {
+    color: #2a9d8f;
+  }
+</style>
+
+          
+      <!-- ========== Blog section start ========== -->
+      <section id="about" class="section-padding authorv2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+              <div class="section-title-center text-center">
+                <span
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="150"
+                  >About Us</span
+                >
+                <h2
+                  class="display-6"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  Company Profile
+                </h2>
+                <div
+                  class="section-divider divider-traingle"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="250"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-5">
+            <!-- Company image area start -->
+            <div
+              class="col-lg-6 mb-4 mb-lg-0"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+            <div class="authorv2__image">
+              <!-- Image Section -->
+              <img
+                class="img-fluid"
+                src="https://images.unsplash.com/photo-1508780709619-79562169bc64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHwxfHx8fHx8fHwxNjExOTI5OTM5&ixlib=rb-1.2.1&q=80&w=800"
+                alt="Bright Horizon Corporate Headquarters"
+              />
+              
+              
+            </div>
+            
+            </div>
+            <!-- Company image area end -->
+            <!-- Company content area start -->
+            <div
+              class="col-lg-6"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <p>
+                At Othello Financial Services, we are committed to delivering top-notch IT solutions tailored for financial institutions and enterprises. With a focus on innovation, reliability, and efficiency, we empower businesses to achieve their goals and navigate the complexities of the digital age.
+              </p>
+              <div class="authorv2__content">
+                <div class="authorv2__list">
+                  <div class="row">
+                    <div class="col-6 mb-3">
+                      <h4>Company Name:</h4>
+                      <p class="mb-0">Othello Financial Services</p>
+                    </div>
+                    <div class="col-6 mb-3">
+                      <h4>Founded:</h4>
+                      <p class="mb-0">2016</p>
+                    </div>
+                    <div class="col-6 mb-3">
+                      <h4>Head Office:</h4>
+                      <p class="mb-0">Nishinomiya City, Hyogo Prefecture, 663-8035, Japan</p>
+                    </div>
+                    <div class="col-6 mb-3">
+                      <h4>Capital:</h4>
+                      <p class="mb-0">30 Million Yen</p>
+                    </div>
+                    <div class="col-6 mb-3">
+                      <h4>Core Services:</h4>
+                      <p class="mb-0">IT Support Services, AI Services, Web development</p>
+                    </div>
+                    <div class="col-6">
+                      <h4>Board Member:</h4>
+                      <p class="mb-0">Representative Director Takahashi Shojiro</p>
+                    </div>
+                  </div>
+                </div>
+                <ul class="social-icon mt-3">
+                  <li>
+                    <a href="#"><i class="icofont-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-youtube-play"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icofont-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Company content area end -->
+          </div>
+        </div>
+      </section>
+      
+      <!-- ========== Blog section end ========== -->
+
+      <!-- ========== Footer section Start ========== -->
+      <footer class="footer bg-one overflow-hidden">
+        <div class="container">
+          <div class="footer__topv2 m-50px-t m-50px-b">
+            <div class="row">
+              <!-- About the company -->
+              <div
+                class="col-md-6 col-lg-3 mb-4 mb-lg-0"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <div class="footer__topv2__about">
+                  <div class="logo">
+                    <img
+                      src="assets/images/logo.svg"
+                      alt="Othello Financial Services Logo"
+                    />
+                  </div>
+                  <div class="text">
+                    <p>
+                      Othello Financial Services is dedicated to providing innovative
+                      IT solutions and support for businesses worldwide. With a focus
+                      on reliability, security, and efficiency, we help enterprises
+                      achieve their goals in a rapidly evolving digital landscape.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Useful Links -->
+              <div
+                class="col-md-6 col-lg-3 mb-4 mb-lg-0"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                <div class="footer__topv2__link">
+                  <div class="title">
+                    <p>Useful Links</p>
+                  </div>
+                  <ul class="link">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Contact Info -->
+              <div
+                class="col-md-6 col-lg-3 mb-4 mb-lg-0"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
+                <div class="footer___topV2__contact">
+                  <div class="title">
+                    <p>Contact Us</p>
+                  </div>
+                  <ul class="info">
+                    <li>
+                      <i class="icofont-google-map"></i>
+                      <a href="#">2nd Floor, Tsukamoto Building, 1-12 Kitaguchicho, Nishinomiya City, Hyogo Prefecture, 663-8035</a>
+                    </li>
+                    <li>
+                      <i class="icofont-email"></i>
+                      <a href="mailto:support@othello-fs.co.jp"
+                        >support@othello-fs.co.jp</a
+                      >
+                    </li>
+                    <li>
+                      <i class="icofont-phone"></i>
+                      <a href="tel:+11234457900">0798-68-2338</a>
+                    </li>
+                  </ul>
+                  <ul class="social-icon">
+                    <li>
+                      <a href="#"><i class="icofont-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icofont-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icofont-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="icofont-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Newsletter -->
+              <div
+                class="col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="350"
+              >
+                <div class="footer___topV2__newsletter">
+                  <div class="title">
+                    <p>Subscribe to Our Newsletter</p>
+                  </div>
+                  <div class="text">
+                    <p>
+                      Stay updated with the latest insights and solutions from Othello
+                      Financial Services. Subscribe now!
+                    </p>
+                  </div>
+                  <form action="assets/subscribe/subscribe.php" id="subscribe">
+                    <div class="input-group aos-init aos-animate">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter Your Email"
+                        id="subscriber-email"
+                      />
+                      <button
+                        class="button button__primary"
+                        id="subscribe-button"
+                      >
+                        <span>Subscribe</span>
+                      </button>
+                    </div>
+                    <div class="result">
+                      <p class="success-msg aos-init aos-animate">
+                        <i class="icofont-check"></i> Thank you for subscribing!
+                      </p>
+                      <p class="error-msg aos-init aos-animate">
+                        <i class="icofont-close"></i> Something went wrong!
+                      </p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="footer__copyright m-20px-t m-20px-b">
+            <div class="row">
+              <div class="col-12">
+                <p class="m-0 text-center">
+                  &copy; 2024 Othello Financial Services. All rights reserved. Crafted by Othello Team.
+                  <!-- with <i class="icofont-heart"></i> by Othello Team. -->
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <!-- ========== Footer section End ========== -->
+    </div>
+    <!--====== jquery js ======-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--====== One page nav ======-->
+    <script src="assets/js/onepageNav.js"></script>
+    <!--====== Ajaxchimp js ======-->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!--====== Glightbox js ======-->
+    <script src="assets/js/glightbox.js"></script>
+    <!--====== Glightbox js ======-->
+    <script src="assets/js/swiper.min.js"></script>
+    <!--====== Appear js ======-->
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <!--====== Odometer js ======-->
+    <script src="assets/js/odometer.min.js"></script>
+    <!--====== Aos js ======-->
+    <script src="assets/js/aos.js"></script>
+    <!--====== Jquery validate js ======-->
+    <script src="assets/js/jquery.validate.js"></script>
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--====== modernizr js ======-->
+    <script src="assets/js/modernizr.custom.79639.js"></script>
+    <!--====== mousewheel js ======-->
+    <script src="assets/js/jquery.mousewheel.js"></script>
+    <!--====== bookblock js ======-->
+    <script src="assets/js/jquery.bookblock.js"></script>
+    <!--====== page js ======-->
+    <script src="assets/js/page.js"></script>
+    <!--====== jquerypp custom js ======-->
+    <script src="assets/js/jquery.custom.js"></script>
+    <!--====== Custom js ======-->
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
